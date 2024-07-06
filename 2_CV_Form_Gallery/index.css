@@ -1,0 +1,12 @@
+
+body {
+    background-color: rgb(142, 155, 155);
+}
+h1 {
+    color: blue;
+    background-color: aquamarine;
+    font-size: 100px;
+}
+.but {
+    font-size: 50px;
+}
