@@ -1,0 +1,170 @@
+:root{
+    --Mycolor: rgb(239, 239, 239);
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-color: white;
+    text-decoration-color: rgb(16, 14, 14);
+
+}
+.init{
+    
+    height: 50px;
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 2px;
+    background-color: var(--Mycolor);
+    
+    
+}
+
+.head{
+    text-decoration: none;
+    color: black;
+}
+
+.store{
+    text-decoration: none;
+    color: black;
+}
+.Mac{
+    text-decoration: none;
+    color: black;
+}
+.iPad{
+    text-decoration: none;
+    color: black;
+}
+.iPhone{
+    text-decoration: none;
+    color: black;
+}
+.Watch{
+    text-decoration: none;
+    color: black;
+}
+.Vision{
+    text-decoration: none;
+    color: black;
+}
+.AirPods{
+    text-decoration: none;
+    color: black;
+}
+.TV{
+    text-decoration: none;
+    color: black;
+
+}
+.Entertainment{
+    text-decoration: none;
+    color: black;
+
+}
+.Acessories{
+    text-decoration: none;
+    color: black;
+
+}
+.Support{
+    text-decoration: none;
+    color: black;
+
+}
+.magnifying-glass{
+    text-decoration: none;
+    color: black;
+}
+.bag{
+    text-decoration: none;
+    color: black;
+}
+
+
+.menu{
+    height: 50px;
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+span{
+    padding: 10px;
+}
+/* .mag{
+    height: 2%;
+    width: 2%; */
+
+/* ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    flex-direction: row;
+} */
+
+.buyMac{
+    width: 100%;
+    height: 680px;
+    
+    background-color: var(--Mycolor)
+}
+.macimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.macBookAir{
+    background-color: var(--Mycolor);
+
+}
+.iphone{
+    width: 100%;
+    height: 700px;
+    padding-bottom: 10px;
+    
+}
+.grid-container {
+    /* margin: 10px, 10px, 10px, 10px; */
+
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 1px;
+    display: grid;
+    grid-template-columns:  repeat(2, 1fr)
+        
+}
+
+.info{
+    align-items: center;
+    align-content: center;
+}
+
+@media only screen and (max-width: 767px) {
+    
+  }
+  
+  
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+   
+  }
+  
+  
+  @media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    
+  }
+  
+ 
+  @media only screen and (min-width: 1280px) {
+    
+  }
+  
